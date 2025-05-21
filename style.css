@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.task {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background-image: linear-gradient(60deg, #0100ff, #1efc8b);
+}
+.task__fieldPlacement {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.task__internalBlock {
+	background-color: #121212;
+	width: 50%;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+.task__text {
+	color: #fff;
+}
+.task__wrupperListTask {
+	display: flex;
+	justify-content: space-between;
+}
+.icons {
+	width: 24px;
+	height: 24px;
+}
+.task__containerText {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 149.24px;
+}
+
+.task__text:hover {
+	cursor: pointer;
+}
+.task__btnContainer {
+	display: flex;
+	gap: 10px;
+}
+.task__btnEditing {
+	background-image: url('./images/update.svg');
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	background-color: #121212;
+}
+
+.task__btnSave {
+	display: none;
+	background-image: url('./images/save.svg');
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	background-color: #121212;
+}
+.task__btnDelete {
+	background-image: url('./images/remove.svg');
+	width: 24px;
+	height: 24px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: none;
+	background-color: #121212;
+}
+.addTask__container {
+	display: flex;
+	margin-top: 20px;
+}
+.addTask__enterText {
+	width: 520px;
+	font-family: 'Times New Roman', Times, serif;
+	padding-left: 16px;
+	border-radius: 6px;
+	border: none;
+}
+
+.addTask__btnStyle {
+	margin-left: 6px;
+	background-color: #fff;
+	padding: 5px 15px;
+	border-radius: 8px;
+	border: none;
+}
+.editingTask {
+	background-color: #121212;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 2px;
+	color: #fff;
+}
